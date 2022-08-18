@@ -1,0 +1,15 @@
+*.gz
+*.log
+*.yml
+.Rproj.user
+*/cache/
+.DS_Store
+*/figure/
+*.html
+.Rhistory
+*/*/cache
+*.aux
+*.fdb_latexmk
+*.fls
+*.out
+*/.aux
