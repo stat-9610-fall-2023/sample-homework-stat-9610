@@ -20,3 +20,5 @@ ggsave(filename = "figures-and-tables/normal-histogram.pdf",
        device = "pdf", 
        width = 4,
        height = 3)
+
+#### make lots of changes!!!!
