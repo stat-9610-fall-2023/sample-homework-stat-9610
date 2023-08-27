@@ -28,7 +28,7 @@
 %==============================================================================
 \author{Eugene Katsevich}
 \title{Sample Homework}
-\date{August 18, 2022}
+\date{August 27, 2023}
 
 %==============================================================================
 % Put title and author in PDF properties
@@ -76,35 +76,9 @@
 
 \maketitle
 
-\section{Instructions}
-
-\paragraph{Setup.} Pull the latest version of this assignment from Github and set your working directory to \texttt{stat-961-fall-2021/homework/homework-1}. Consult the \href{https://github.com/Katsevich-Teaching/stat-961-fall-2021/blob/main/getting-started/getting-started.pdf}{getting started guide} if you need to brush up on \texttt{R}, \texttt{LaTeX}, or \texttt{Git}.
-
-\paragraph{Collaboration.} The collaboration policy is as stated on the Syllabus:
-
-\begin{quote}
-``Students are permitted to work together on homework assignments, but solutions must be written up and submitted individually. Students must disclose any sources of assistance they received; furthermore, they are prohibited from verbatim copying from any source and from consulting solutions to problems that may be available online and/or from past iterations of the course.''
-\end{quote}
-
-\noindent In accordance with this policy, \\
-
-\noindent \textit{Please list anyone you discussed this homework with:} I did not discuss this homework with anyone.
-
-\paragraph{Writeup.} Use this document as a starting point for your writeup, adding your solutions between \verb|\begin{sol}| and \verb|\end{sol}|. See the \href{https://github.com/Katsevich-Teaching/stat-961-fall-2021/blob/main/getting-started/preparing-reports.pdf}{preparing reports guide} for guidance on compilation, creation of figures and tables, and presentation quality. Show all the code you wrote to produce your numerical results, and include complete derivations typeset in LaTeX for the mathematical questions. 
-
-\paragraph{Programming.}
-
-The \texttt{tidyverse} paradigm for data manipulation (\texttt{dplyr}) and plotting (\texttt{ggplot2}) are strongly encouraged, but points will not be deducted for using base \texttt{R}. 
-
-\paragraph{Grading.} Each sub-part of each problem will be worth 3 points: 0 points for no solution or completely wrong solution; 1 point for some progress; 2 points for a mostly correct solution; 3 points for a complete and correct solution modulo small flaws. The presentation quality of the solution for each problem (as exemplified by the guidelines in Section 3 of the \href{https://github.com/Katsevich-Teaching/stat-961-fall-2021/blob/main/getting-started/preparing-reports.pdf}{preparing reports guide}) will be evaluated out of an additional 3 points.
-
-\paragraph{Submission.} Compile your writeup to PDF and submit to \href{https://www.gradescope.com/courses/284562}{Gradescope}.
-
-\clearpage
-
 \begin{prob} \textbf{Quadratic theorem.} \\
 
-\noindent Consider a right triangle with legs of lengths $a$ and $b$ and hypotenuse of length $c$. 
+\noindent Consider a right triangle with legs of lengths $a$ and $b$ and hypotenuse of length $c$.
 \begin{enumerate}
 \item[(a)] State the Pythagorean theorem.
 \item[(b)] Who initially proposed this theorem?
@@ -167,7 +141,7 @@ The \texttt{tidyverse} paradigm for data manipulation (\texttt{dplyr}) and plott
 
 \begin{enumerate}
   \item[(a)] Figure~\ref{fig:price-hist} shows the distribution of diamond price. We see that the distribution has a long right tail.
-  
+
   \begin{figure}[h!]
     \centering
     \includegraphics{figures-and-tables/price-histogram.pdf}
@@ -179,10 +153,10 @@ The \texttt{tidyverse} paradigm for data manipulation (\texttt{dplyr}) and plott
   \input{figures-and-tables/diamond-price-by-cut.tex}
 
   \item[(c)] Table~\ref{tab:regression-output} shows the regression output. It appears that the carat of a diamond has an extremely significant impact on its price.
-  
+
   \input{figures-and-tables/regression-output.tex}
 \end{enumerate}
-    
+
 
 \end{sol}
 
